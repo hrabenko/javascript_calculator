@@ -19,7 +19,6 @@ function App() {
 
     const handleOperator = (event) => {
         const operator = event.target.textContent;
-        // 5 *  + 5 -> 10 замість 25
 
         const array = String(display).split(' ');
         const lastElement = array[array.length - 1];
